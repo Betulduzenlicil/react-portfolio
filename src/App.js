@@ -1,10 +1,13 @@
+import Router from './router/router';
+import './index.css';
 
+// import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
-    <div>
-      <h1>REACT App</h1>
-    
+    <div className="App">
+      {/* <Navbar/> */}
+      <Router />
     </div>
   );
 }
