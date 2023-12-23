@@ -1,0 +1,12 @@
+.projects-bgImg-container {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl0N3WGQ_6gtM5DStGIHx4wQiVWfBb4C0tnQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    opacity: 0.8;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

@@ -4,24 +4,24 @@ import "./Navbar.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 const Navbar = () => {
   return (
-    <div >
-      <ul className="d-flex justify-content-between " style={{listStyleType:"none"}}>
-        <li className="me-3" >
+    <div className="cont d-flex flex-wrap">
+      <ul className="d-flex flex-wrap text-center" style={{listStyleType:"none", textDecoration: "none"}}>
+        <li className="text-center" >
           {" "}
-          <NavLink to="/" >
+          <NavLink to="/" style={{textDecoration:"none", textAlign: "center"}} >
             HOME
           </NavLink>
         </li>
         <li>
-          <NavLink to="/about">ABOUT ME</NavLink>
+          <NavLink to="/about" style={{textDecoration:"none"}}>ABOUT ME</NavLink>
         </li>
         <li>
           {" "}
-          <NavLink to="/contact">CONTACT</NavLink>
+          <NavLink to="/contact" style={{textDecoration:"none"}}>CONTACT</NavLink>
         </li>
         <li>
           {" "}
-          <NavLink to="/projects">PROJECTS</NavLink>
+          <NavLink to="/projects" style={{textDecoration:"none"}}>PROJECTS</NavLink>
         </li>
       </ul>
     </div>

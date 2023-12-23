@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+.cont{
+    background-color: rgb(62, 66, 65);
+    padding: 2rem;
+    margin: 0;
+    width: 100%;
+    
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    text-align: center;
+}
+li{
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family:Rubik Bubbles ;
+    box-shadow: 2px 0px 2px 2px white;
+    text-align: center;
+    
+}
+

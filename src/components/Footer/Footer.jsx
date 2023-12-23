@@ -1,6 +1,8 @@
 import React from "react";
-// import "./Footer.scss";
-
+import "./Footer.css";
+import { FaTwitter } from "react-icons/fa";
+import { FaSquareFacebook } from "react-icons/fa6";
+import { FaInstagram, FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer>
@@ -8,22 +10,23 @@ const Footer = () => {
         <div className="icons">
           <a href="#tw">
             {" "}
-            <i className="fa-brands fa-twitter fa-2x"></i>
+            {/* <i className="fa-brands fa-twitter fa-2x"></i> */}
+            <FaTwitter />
           </a>
           <a href="#fb">
-            <i className="fa-brands fa-facebook fa-2x"></i>
+          <FaSquareFacebook />
           </a>
           <a href="#ins">
-            <i className="fa-brands fa-instagram fa-2x"></i>
+          <FaInstagram />
           </a>
           <a href="#gh">
-            <i className="fa-brands fa-github fa-2x"></i>
+          <FaGithub />
           </a>
         </div>
         <p className="pAlt">
           {" "}
-          <span className="anime">Designed by Betül DUZENLI CIL &nbsp; </span> &copy;
-          Copyright &nbsp; {new Date().toLocaleDateString()}{" "}
+          <span className="anime">Designed by Betül DUZENLI CIL &nbsp; </span> &copy; 2023
+         
         </p>
       </div>
     </footer>
